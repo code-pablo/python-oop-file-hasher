@@ -1,0 +1,8 @@
+hello
+get_hash()
+
+Works like a "cached getter".
+
+If the hash hasn’t been computed yet (self.hash_value is None), it calls calculate_hash().
+
+If the hash is already computed, it simply returns the stored value instead of recomputing.

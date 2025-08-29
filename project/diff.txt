@@ -1,0 +1,10 @@
+hello
+calculate_hash()
+
+Actually calculates the hash by reading the file in chunks.
+
+Updates the hasher until the entire file is processed.
+
+Converts it to a hex string and stores it in self.hash_value.
+
+Always recomputes the hash (slow if file is big).
